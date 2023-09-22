@@ -16,14 +16,14 @@ const Login = () => {
                 <div id="cadastro-area" className="flex flex-col flex-1 justify-center items-center">
                     <div className='flex flex-col w-1/3'>
                         <h2 className="text-lg font-medium text-azul-escuro mb-5">Acesse sua conta</h2>
-                        <input className="block mb-5 border-solid border-2 border-gray-900 border-opacity-5 text-cinza-claro pl-2 font-light text-sm" type="text" name='E-mail' value="E-mail"></input>
-                        <input className="mb-5 border-solid border-2 border-gray-900 border-opacity-5 text-cinza-claro pl-2 font-light text-sm" type="text" name='Senha' value="Senha"></input>
+                        <input className="block mb-5 border-solid border-2 border-gray-900 border-opacity-5 text-cinza-claro pl-2 font-light text-sm h-11 rounded-md" type="text" name='E-mail' value="E-mail"></input>
+                        <input className="mb-5 border-solid border-2 border-gray-900 border-opacity-5 text-cinza-claro pl-2 font-light text-sm h-11 rounded-md" type="text" name='Senha' value="Senha"></input>
                         <p className='mb-5 text-sm font-semibold text-azul-suave'><a href='#'>Esqueceu a senha? ➜</a></p>
                         <button className='bg-azul-escuro rounded text-white h-[35px]'>Entrar</button>
                         <p className='flex justify-center mt-5 text-sm'>Não possui uma conta? <a href='#' className="text-amber-400 font-bold ml-1">Cadastre-se agora.</a></p>
 
                         <div id="politica-privacidade" className='flex flex-col justify-center items-center gap-2 mt-10'>
-                            <h5 className='text-[10px] text-cinza-suave'>Políticas de Privacidade</h5>
+                            <h5 className='text-[10px] text-cinza-suave'><a href='#'>Políticas de Privacidade</a></h5>
                             <p className='text-[10px] text-cinza-suave'>Direitos autorais © 2023 XXXX. Todos os direitos reservados.</p>
                         </div>
 
